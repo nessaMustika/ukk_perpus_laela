@@ -47,6 +47,13 @@
                           ">
                           Delete
                         </a>
+                             
+<a 
+                          href="<?= urlTo('/buku/'.$buku['BukuID'].'/ulasan') ?>"
+                          class="btn btn-info
+                          ">
+                          Lihat Ulasan
+                        </a>
                       </td>
                   	</tr>
                   	<?php $no++; ?>
