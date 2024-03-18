@@ -118,6 +118,8 @@ CREATE TABLE `users` (
 --
 -- Indexes for dumped tables
 --
+INSERT INTO `users` (`UserID`, `Username`, `Password`, `Email`, `NamaLengkap`, `Alamat`, `Role`) VALUES
+(1, 'admin', '$2y$10$QHOygX0mw4ApPok/UNuNee5mXMOdAUPbL9IPzDTsL42y4sQK//BJ.', 'admin@gmail.com', 'Administrator Pertama', 'samarang', 'Administrator');
 
 --
 -- Indexes for table `buku`
